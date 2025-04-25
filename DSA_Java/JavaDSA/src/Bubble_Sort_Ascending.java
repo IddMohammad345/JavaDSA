@@ -1,11 +1,11 @@
 import java.util.Arrays;
 
-public class Bubble_Sort {
+public class Bubble_Sort_Ascending {
     public static void main(String[] args) {
 
         int[] arr={4,5,63,2,60,45,23,9,44,20,98,11,3};
 
-        //bubble sorting logic 
+        //bubble sorting logic in Ascending order
         for (int j=0;j<arr.length-1;j++) {
             boolean isSortedArray=true;
             for (int i = 0; i < arr.length-1-j; i++) {
