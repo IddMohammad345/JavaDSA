@@ -1,7 +1,7 @@
 public class factorialWithoutLoop {
     public static void main(String[] args) {
         int result=fact(5);
-        System.out.println(result);
+        System.out.println(" factorial : "+result);
     }
     public static int fact(int i){
         if (i!=0)
